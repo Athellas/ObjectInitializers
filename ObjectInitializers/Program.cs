@@ -31,6 +31,16 @@ namespace ObjectInitializers
             goldPoint.DisplayStats();
             Console.ReadLine();
 
+            // Rectangle part
+            Rectangle myRect = new Rectangle
+            {
+                TopLeft = new Point {X = 10, Y = 10},
+                BottomRight = new Point {X = 200, Y = 200}
+            };
+
+            myRect.DisplayStats();
+            Console.ReadLine();
+
         }
     }
 }
